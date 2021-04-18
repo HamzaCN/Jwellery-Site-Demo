@@ -4,6 +4,7 @@
 }
 .nav-link{
     color: #E3CBAF !important;
+    font-size: 22px !important;
 }
 .navbar-brand img{
     width: 150px;
@@ -18,4 +19,10 @@
 .dropdown-menu li a:hover{
     background-color: black !important;
     border-bottom: #E3CBAF 1px solid;
+}
+.fa-cart-arrow-down{
+     font-size: 28px !important;
+}
+.fa-user-circle-o{
+    font-size: 28px !important;
 }

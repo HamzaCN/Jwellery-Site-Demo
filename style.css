@@ -39,6 +39,7 @@ body{
     color: #E3CBAF;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     
 }
 .mainCard{
@@ -47,4 +48,9 @@ body{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+    .card1 , .card2, .card3{
+        width: 100%;
+    }
 }
